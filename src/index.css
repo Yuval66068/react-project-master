@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+
+.container.dark{
+  background: #222;
+}
+
+.title{
+  width: 2rem;
+
+}
+
+
+
+.dark p, .dark h1{
+    color: #000;
+    color: #fff;
+}
+
+.dark .title{
+  color: #000;
+    color: #fff;
+}
+
+.dark .singleCard {
+  background-color: #333 !important;
+}
+
+
+
+.about{
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;  
+  padding: 40px 20px;
+  }
+
+  
